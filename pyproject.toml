@@ -23,6 +23,7 @@ mantel = "^2.2.1"
 frouros = "^0.9.0"
 autorank = "^1.2.1"
 aeon = "^1.0.0"
+fastcore = "1.7.20"
 
 
 

@@ -26,3 +26,7 @@ Download the datasets
 python download_ts_classification.py 
 ```
 
+Train the models. For example to train TST run:
+```
+python models/model_dev.py --run_only_on datasets/Symbols
+```
