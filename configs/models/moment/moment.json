@@ -1,0 +1,10 @@
+{
+  "model_name": "MOMENT",
+  "trainable_layers": null,
+  "regularization_strength": 0,
+  "learning_rate": 1e-4,
+  "epochs": 7,
+  "batch_size": 32,
+  "save_ckpts_every": 7,
+  "kwargs": {}
+}

@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "tsif"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+captum = "^0.7.0"
+tsai = "^0.3.9"
+pandas = "^2.2.2"
+pkbar = "^0.5"
+black = "^24.4.2"
+click = "^8.1.7"
+seaborn = "^0.13.2"
+alibi-detect = {extras = ["torch"], version = "^0.12.0"}
+adversarial-robustness-toolbox = "^1.18.1"
+torch = "1.13.1"
+toolz = "^0.12.1"
+cloudpickle = "^3.0.0"
+mantel = "^2.2.1"
+frouros = "^0.9.0"
+autorank = "^1.2.1"
+aeon = "^1.0.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
